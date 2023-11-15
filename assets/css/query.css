@@ -1,0 +1,29 @@
+/* The devices <= 992px */
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* The devices <= 600px */
+@media (max-width: 600px) {
+  h1 span {
+    display: none;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
